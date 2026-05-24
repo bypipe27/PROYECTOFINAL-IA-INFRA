@@ -1,3 +1,41 @@
+
+
+
+
+
+# Binarios C++
+motor/build/
+motor/*.o
+motor/*.out
+motor/bench/benchmark
+
+# Node/Frontend (si usas npm)
+frontend/node_modules/
+frontend/dist/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Docker
+.dockerignore
+
+# Kubernetes secrets (nunca subir!)
+deploy/**/secrets.yaml
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporales
+*.tmp
+*.bak
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
